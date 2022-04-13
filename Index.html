@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>My Bank Account</title>
+    <style>
+       
+    </style>
+</head>
+<body>
+
+
+<h1 align="center">MY BANK ACCOUNT INFO</h1>
+   
+<div class="main">
+    <div class="deposit">
+        <div class="text">
+            <h3>Deposit</h3>
+            <p>$<span id="deposit-amount">00</span></p>
+        </div>
+    </div>
+    <div class="widraw">
+        <div class="text">
+            <h3>Widraw</h3>
+            <p>$<span id="widraw-amount">00</span></p>
+        </div>
+    </div>
+    
+    <div class="total-blance">
+       <div class="text">
+            <h3>Total Blance</h3>
+            <p>$<span id="total-amount">1500</span></p>
+       </div>
+    </div>
+</div>
+
+<!-- get the amount from the user,s -->
+<li>Plese provide the valid number!</li>
+<main>
+    <div class="get-deposit-amount">
+        <h3>Plese your deposit amount!</h3>
+        <input type="number" placeholder="Enter your amount" id="deposit-input">
+        <button id="depositBtn">Deposit</button>
+    </div>
+    <div class="get-widrow-amount">
+        <h3>Plese your widraw amount!</h3>
+        <input type="number" placeholder="Enter your amount" id="widraw-input">
+        <button id="widrawBtn">Widraw</button>
+    </div>
+</main>
+
+    <script src="./bank.js"></script>
+</body>
+</html>
